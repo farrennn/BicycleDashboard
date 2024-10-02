@@ -15,7 +15,7 @@ day_df = pd.read_csv("day.csv")
 # Menampilkan informasi tentang day_df
 day_df.info()
 
-st.sidebar.image("logo.png", use_column_width=True)
+st.sidebar.image("dashboard/logo.png", use_column_width=True)
 
 # Menghapus kolom yang tidak diperlukan
 drop_col = ['instant', 'windspeed']
